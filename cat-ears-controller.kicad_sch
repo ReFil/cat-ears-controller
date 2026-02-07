@@ -444,6 +444,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_MountingPin_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -2574,6 +2784,16 @@
 		)
 		(uuid "53775c63-cbfc-443f-ac2d-87589f322f05")
 	)
+	(label "VBAT"
+		(at 228.6 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5802bc03-47a4-46d7-aa45-e883495c08c8")
+	)
 	(label "TXRX1"
 		(at 160.02 72.39 0)
 		(effects
@@ -2583,6 +2803,16 @@
 			(justify left bottom)
 		)
 		(uuid "5a3d1ff4-5698-48d5-b0bf-d1646af74bff")
+	)
+	(label "SERVO2"
+		(at 228.6 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "626124e5-89c9-4068-bb22-44a77bd67bf2")
 	)
 	(label "BUTTON_1"
 		(at 151.13 143.51 180)
@@ -2632,7 +2862,17 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "81633204-732d-4a98-9ba3-be7ca5d56639")
+		(uuid "81633204-732d-4a98-9ba3-be7ca5d5663a")
+	)
+	(label "SERVO1"
+		(at 190.5 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8987a8dd-2efb-4629-91bd-8a4346403335")
 	)
 	(label "RXTX2"
 		(at 111.76 87.63 180)
@@ -2663,6 +2903,16 @@
 			(justify left bottom)
 		)
 		(uuid "a235518f-9e99-43b4-af72-63f85990832d")
+	)
+	(label "SERVO2"
+		(at 160.02 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6e47a3e-ac3b-4691-95df-7f88a60e3f1b")
 	)
 	(label "TXRX2"
 		(at 35.56 170.18 180)
@@ -2724,6 +2974,16 @@
 		)
 		(uuid "c6dba6f2-fa5d-49d5-9754-bf6f9e6dcf2d")
 	)
+	(label "SERVO1"
+		(at 111.76 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c869cd8d-028f-4f07-a446-29865ab66f3d")
+	)
 	(label "VBAT"
 		(at 111.76 93.98 180)
 		(effects
@@ -2733,6 +2993,16 @@
 			(justify right bottom)
 		)
 		(uuid "ce8f82aa-3a48-423a-acbe-e40d4259986f")
+	)
+	(label "VBAT"
+		(at 190.5 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5591401-caa6-45cf-ada3-6cff7d68ce5e")
 	)
 	(label "BUTTON_2"
 		(at 111.76 53.34 180)
@@ -2782,7 +3052,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ee1cd888-784f-42aa-bf5a-5d2daca2fd9c")
+		(uuid "ee1cd888-784f-42aa-bf5a-5d2daca2fd9d")
 	)
 	(label "SHUT"
 		(at 207.01 68.58 90)
@@ -2792,7 +3062,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ee1cd888-784f-42aa-bf5a-5d2daca2fd9c")
+		(uuid "ee1cd888-784f-42aa-bf5a-5d2daca2fd9e")
 	)
 	(label "INT"
 		(at 209.55 68.58 90)
@@ -2802,7 +3072,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ee1cd888-784f-42aa-bf5a-5d2daca2fd9c")
+		(uuid "ee1cd888-784f-42aa-bf5a-5d2daca2fd9f")
 	)
 	(label "BUTTON_3"
 		(at 151.13 170.18 180)
@@ -3413,6 +3683,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 190.5 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36a76f01-780e-43fb-b894-4096293a0387")
+		(property "Reference" "#PWR025"
+			(at 184.15 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0940d40a-b080-4539-9405-78f35332e58e")
+		)
+		(instances
+			(project "cat-ears-controller"
+				(path "/01a61223-c770-44ed-a5fd-253f809cdc15"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6805")
 		(at 189.23 116.84 0)
 		(unit 1)
@@ -3483,6 +3820,72 @@
 			(project "cat-ears-controller"
 				(path "/01a61223-c770-44ed-a5fd-253f809cdc15"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42d556cf-5bc7-4fbd-80b2-91fc8d4fb612")
+		(property "Reference" "#PWR023"
+			(at 233.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7fa8ca8-3793-476e-92c1-308b62a8866b")
+		)
+		(instances
+			(project "cat-ears-controller"
+				(path "/01a61223-c770-44ed-a5fd-253f809cdc15"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4930,6 +5333,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 233.68 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c62e70-d82a-4cca-aa2b-276e57e6249f")
+		(property "Reference" "J7"
+			(at 236.22 141.3255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_MountingPin"
+			(at 236.22 143.8655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_ZH_B3B-ZR-SM4-TF_1x03-1MP_P1.50mm_Vertical"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcd8a631-61de-4226-9703-a36c6a259d13")
+		)
+		(pin "MP"
+			(uuid "f43abed7-b7e9-4910-8dcf-186b887f0352")
+		)
+		(pin "2"
+			(uuid "f4843451-95ac-4de2-82db-85cf607c6675")
+		)
+		(pin "3"
+			(uuid "a19b131b-d6e0-4460-a336-11468b9df3cf")
+		)
+		(instances
+			(project "cat-ears-controller"
+				(path "/01a61223-c770-44ed-a5fd-253f809cdc15"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 50.8 139.7 0)
 		(unit 1)
@@ -5636,6 +6115,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 195.58 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4a8ffe3-1d39-4338-b7ec-18a5fa40cd44")
+		(property "Reference" "#PWR022"
+			(at 195.58 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fd1b33f-a8ce-4ffb-af95-538ee5dc9032")
+		)
+		(instances
+			(project "cat-ears-controller"
+				(path "/01a61223-c770-44ed-a5fd-253f809cdc15"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e35992a7-72cc-420d-9a07-0d3d788402e8")
+		(property "Reference" "#PWR024"
+			(at 222.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "494a0113-20eb-4807-a277-a8d673b6ecb2")
+		)
+		(instances
+			(project "cat-ears-controller"
+				(path "/01a61223-c770-44ed-a5fd-253f809cdc15"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
 		(at 97.79 133.35 180)
 		(unit 1)
@@ -5902,6 +6514,82 @@
 			(project "cat-ears-controller"
 				(path "/01a61223-c770-44ed-a5fd-253f809cdc15"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 195.58 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcba58ff-946b-464b-8b5b-f1125afe38bd")
+		(property "Reference" "J6"
+			(at 198.12 141.3255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_MountingPin"
+			(at 198.12 143.8655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_ZH_B3B-ZR-SM4-TF_1x03-1MP_P1.50mm_Vertical"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8736df9-437a-486a-966b-176a6bfa2fb9")
+		)
+		(pin "MP"
+			(uuid "89ea5d49-e409-42ef-a0f4-21a065643547")
+		)
+		(pin "2"
+			(uuid "d892da8f-e387-47ba-ab31-fb1add173ded")
+		)
+		(pin "3"
+			(uuid "4e754015-ea10-48d2-aa1f-9a8fe5d9fa8e")
+		)
+		(instances
+			(project ""
+				(path "/01a61223-c770-44ed-a5fd-253f809cdc15"
+					(reference "J6")
 					(unit 1)
 				)
 			)
