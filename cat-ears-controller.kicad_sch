@@ -3524,6 +3524,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C221841"
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d401946-0765-4c8f-9159-b55a2645708d")
 		)
@@ -3664,6 +3673,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C160388"
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc641fa3-d19a-4203-b610-7a03414b6f1c")
 		)
@@ -3796,6 +3814,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 189.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2890035"
 			(at 189.23 116.84 0)
 			(effects
 				(font
@@ -4277,6 +4304,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C95177"
+			(at 41.91 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50725eab-ca28-421c-9d66-4784659527b0")
 		)
@@ -4338,6 +4374,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 41.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C95177"
+			(at 41.91 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,6 +4452,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C95177"
 			(at 193.04 54.61 0)
 			(effects
 				(font
@@ -4544,6 +4598,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2890035"
 			(at 173.99 116.84 0)
 			(effects
 				(font
@@ -4761,6 +4824,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2890035"
+			(at 204.47 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32e1988c-010b-46dc-b5f4-79fc93384264")
 		)
@@ -4828,6 +4900,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C95177"
+			(at 41.91 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,6 +5109,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 156.21 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C221676"
 			(at 156.21 170.18 0)
 			(effects
 				(font
@@ -5387,6 +5477,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C19185658"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcd8a631-61de-4226-9703-a36c6a259d13")
 		)
@@ -5615,6 +5714,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C221676"
+			(at 156.21 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c5f0edd8-4a1b-4880-b346-fa71cb8d0b12")
 		)
@@ -5742,6 +5850,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 156.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C221676"
 			(at 156.21 157.48 0)
 			(effects
 				(font
@@ -5885,6 +6002,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C221676"
+			(at 156.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b7787af-4c97-4ff7-8d1f-9d624d45ae6d")
 		)
@@ -5947,6 +6073,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2890035"
 			(at 219.71 116.84 0)
 			(effects
 				(font
@@ -6031,6 +6166,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C95177"
+			(at 196.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7754c810-7ea6-448f-b4e6-3215e0dffa49")
 		)
@@ -6092,6 +6236,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 41.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C95177"
+			(at 41.91 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,6 +6447,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C160388"
 			(at 97.79 133.35 0)
 			(effects
 				(font
@@ -6566,6 +6728,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19185658"
 			(at 195.58 142.24 0)
 			(effects
 				(font

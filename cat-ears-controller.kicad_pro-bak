@@ -507,7 +507,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gbrs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -635,8 +635,5 @@
       "Root"
     ]
   ],
-  "text_variables": {
-    "GIT_TAG": "V0.1",
-    "PROJ_TITLE": "cat-ears-controller"
-  }
+  "text_variables": {}
 }
